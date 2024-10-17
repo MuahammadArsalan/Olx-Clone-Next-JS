@@ -50,7 +50,7 @@ const Navbar = () => {
 </div>
 {/* Property div ended */}
 
-<div className=''>
+<div>
 
 <Login/>
 <Sell/>
