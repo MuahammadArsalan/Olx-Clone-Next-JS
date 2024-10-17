@@ -5,13 +5,15 @@ import logo from "@/app/CustomAssets/Images/olxl ogo.png"
 import car from "@/app/CustomAssets/Images/nav car.jpeg"
 import plot from "@/app/CustomAssets/Images/property sticker.png"
 import Image from 'next/image'
+import Login from './Login'
+import Sell from './Sell'
 
 
 const Navbar = () => {
   return (
 <>
 
-<section className='flex gap-7 w-[48vw] justify-around p-5'>
+<section className='flex gap-7 flex-wrap justify-around p-5'>
 
 
 <div>
@@ -47,6 +49,12 @@ const Navbar = () => {
 </div>
 </div>
 {/* Property div ended */}
+
+<div className=''>
+
+<Login/>
+<Sell/>
+</div>
 
 
 

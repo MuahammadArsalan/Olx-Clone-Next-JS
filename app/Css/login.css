@@ -1,0 +1,32 @@
+
+
+.mod:hover{
+    background-color: grey;
+    color: white;
+}
+.sellBtn{
+    border: 3px solid grey;
+    width: 7vw;
+    border-radius: 20px;
+    padding: 3px;
+font-weight: 600;
+
+}
+.sellBtn:hover{
+    background-color: grey;
+    color: white;
+    border: none;
+
+}
+.ic{
+    color: white;
+}
+.ic-loca{
+    color: black;
+}
+
+@media(max-width:1200px){
+    .sellBtn{
+        width: 20vw;
+    }
+}

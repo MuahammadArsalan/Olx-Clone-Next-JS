@@ -1,5 +1,5 @@
 "use client"
-
+import '@/app/Css/login.css'
 import Link from 'next/link'
 import React, { useState } from 'react'
 
@@ -9,8 +9,8 @@ const Login = () => {
   return (
 <>
 {/* The button to open modal */}
-<label htmlFor="my_modal_6" className="btn text-white bg-slate-800">Login</label>
-
+<label htmlFor="my_modal_6" className="sellBtn btn text-white bg-slate-800">Login</label>
+{/* <button htmlFor="my_modal_6" className="sellBtn btn text-white bg-slate-800">skdnsn</button> */}
 {/* Put this part before </body> tag */}
 <input type="checkbox" id="my_modal_6" className="modal-toggle" />
 <div className="modal" role="dialog">

@@ -1,17 +1,18 @@
 import React from 'react'
 import Login from './Login'
+import Sell from './Sell'
 
 const Header = () => {
   return (
    <>
-<section className='flex'>
+<section className='flex flex-wrap justify-around'>
 
 {/* Location div started */}
 
-   <div>
+   <div className=''>
 
-   <select className=" select select-bordered w-[20vw] max-w-xs">
-  <option disabled selected>Location</option>
+   <select className=" select select-bordered w-[25vw] max-w-xs">
+  <option disabled selected><span><i className="ic-loca fa-solid fa-location-dot"></i></span> Location</option>
   <option>Pakistan</option>
   <option>Karachi,Pakistan</option>
   <option>Balochistan,Pakistan</option>
@@ -49,7 +50,6 @@ const Header = () => {
 {/* login div started */}
 
 
-<Login/>
 
 {/* login div ended */}
 
